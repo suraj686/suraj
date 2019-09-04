@@ -7,7 +7,7 @@ before_cache:
   
 cache:
   - directories:
-   - $HOME/Library/Caches/Homebrew
+    - $HOME/Library/Caches/Homebrew
 
 before_install:
   - whoami
