@@ -9,7 +9,7 @@ before_install:
 
 script:
   - ls
-  - chmode +x hello.sh
+  - chmod +x hello.sh
   - ./hello.sh
 
 after_script:
