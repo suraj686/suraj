@@ -6,9 +6,11 @@ before_install:
   - whoami
   - echo "start of pipeline"
   - HOMEBREW_NO_AUTO_UPDATE=1
+
 script:
   - ls
   - chmode +x hello.sh
   - ./hello.sh
+
 after_script:
   - echo "End of the pipeline"
